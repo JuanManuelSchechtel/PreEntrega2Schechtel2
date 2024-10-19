@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venta de Vehiculos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Venta de Vehículos</h1>
+</header>
+<main>
+    <section id="vehiculos">
+        <!-- lista de vehículos -->
+    </section>
+    <section id="filtro">
+        <!-- formulario de filtro -->
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca">
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio">
+        <button id="filtrar">Filtrar</button>
+    </section>
+    <section id="carrito">
+        <!-- carrito de compras -->
+        <h2>Carrito de compras</h2>
+        <ul id="carrito-lista">
+            <!-- lista de vehículos en el carrito -->
+        </ul>
+    </section>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
